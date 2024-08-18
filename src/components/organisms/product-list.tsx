@@ -1,8 +1,8 @@
-import { ProductProps } from '@/types'
+import { Product } from '@/types'
 import ProductCard from '../molecules/product-card'
 
 type Props = {
-  data: ProductProps[]
+  data: Product[]
 }
 
 const ProductList = ({ data }: Props) => {
